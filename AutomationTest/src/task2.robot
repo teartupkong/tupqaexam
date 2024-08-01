@@ -14,7 +14,7 @@ Test Case_01: Add product to Cart and Adjust Items
     Input Text    //*[@id="loginFrm_loginname"]    lyftcoff
     Input Password    //*[@id="loginFrm_password"]    Yapu63@JvsaiS 
     Click Element    //button[@type='submit' and @title='Login']
-    Title Should Be    My Account     
+    Page Should Contain    Welcome back Tup    
 
     Go To    https://automationteststore.com/
     Click Element    //*[@data-id='118']
