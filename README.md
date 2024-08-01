@@ -17,6 +17,12 @@ After clone the project run these following command:
 
 ```pip3 install --upgrade robotframework-seleniumlibrary```
 
+### To run the suite test use this command 
+
+```robot task2.robot```
+
+
+
 ## Robot framework - Video Demo
 
 
